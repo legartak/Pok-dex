@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: #de9c5a;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  /* padding-top: 100px; */
+  display: flex;
+  gap: 10%;
+}
+
+.left-content {
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  grid-gap: 2rem;
+}
+
+.card {
+  width: 200px;
+  background-color: #ffac94;
+  border-radius: 1rem;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+  padding: 0 1rem;
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  box-sizing: border-box;
+  height: 200px;
+}
+
+tbody,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.right-content {
+  text-align: center;
+  color: black;
+}
+
+.right-content img {
+  margin: 2rem;
+  height: 200px;
+}
+
+.types {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0.3rem 0;
+}
+
+.group {
+  background-color: #b74555;
+  color: white;
+  padding: 0.5rem;
+  font-size: 12px;
+  border-radius: 8px;
+}
+
+.normal {
+  background-color: #a8a77a;
+}
+.fire {
+  background-color: #ee8130;
+}
+.water {
+  background-color: #6390f0;
+}
+.electric {
+  background-color: #f7d02c;
+}
+.grass {
+  background-color: #7ac74c;
+}
+.ice {
+  background-color: #96d9d6;
+}
+.fighting {
+  background-color: #c22e28;
+}
+.poison {
+  background-color: #a33ea1;
+}
+.ground {
+  background-color: #e2bf65;
+}
+.flying {
+  background-color: #a98ff3;
+}
+.psychic {
+  background-color: #f95587;
+}
+.bug {
+  background-color: #a6b91a;
+}
+.rock {
+  background-color: #b6a136;
+}
+.ghost {
+  background-color: #735797;
+}
+.dragon {
+  background-color: #6f35fc;
+}
+.dark {
+  background-color: #705746;
+}
+.steel {
+  background-color: #b7b7ce;
+}
+.fairy {
+  background-color: #d685ad;
+}
+
+.btn-group {
+  width: 500px;
+  display: flex;
+}
+
+.btn-group button {
+  outline: none;
+  border: none;
+  height: 50px;
+  width: 200px;
+  padding: 0.3rem 0;
+  margin: 0.7rem;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #b74555;
+  border-radius: 12px;
+}
+
+.header {
+  text-align: center;
+  margin: 2rem 0;
+}
